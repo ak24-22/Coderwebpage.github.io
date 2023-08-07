@@ -1,0 +1,605 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	background-color:#2D2B2B;
+	color:#FFF;
+	font-family:Verdana, Geneva, sans-serif;
+	margin-top:0.5em;
+	margin-left:0.5em;
+	margin-right:0.5em;
+	margin-bottom:0.5em;
+	padding-top:1em;
+	padding-bottom:1em;
+	padding-left:1em;
+	padding-right:1em;
+}
+
+
+
+/*  ____________________________  */
+/* |                            | */
+/* |-----> Navigarion Bar <-----| */
+/* |____________________________| */
+
+
+
+.Logo_Nav_Sign_Up {
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+	padding-left:0.5em;
+	padding-right:0.5em;
+	margin-bottom:2em;
+	display:flex;
+}
+
+	
+.Logo_Image {
+	height:2em;
+	width:8em;
+	float:left;
+	padding-top:1em;
+	cursor:pointer;
+}
+
+nav {
+	text-align:center;
+	text-decoration:none;
+	margin-left:24.6em;
+	margin-right:24.6em;	
+}
+
+ul {
+	list-style-type:none;
+	padding-left:0em;
+}
+
+li {
+	display:inline;
+	padding-left:1.5em;
+	padding-right:1.5em;
+	text-align:center;
+	cursor:pointer;
+}
+
+a {
+	color:#FFF;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#0F0;
+	text-decoration:underline;
+	text-decoration-style:dotted;
+}
+
+.Sign_Up {
+	height:3em;
+	width:3em;
+	float:right;
+	cursor:pointer;
+}
+
+
+
+/*  _________________________  */
+/* |                         | */
+/* |-----> App Section <-----| */
+/* |_________________________| */
+
+
+
+.Section_App {
+	background-color:#4A4A4A;
+	padding-bottom:2em;
+	padding-right:2em;
+	padding-left:2em;
+	padding-top:2em;
+	margin-top:2em;
+	margin-left:2em;
+	margin-right:2em;
+	margin-bottom:0em;
+	display:flex;
+	gap:10em;
+}
+
+
+.left_col{
+	width:50%;
+	
+}
+
+.right_col{
+	flex-grow:1em;
+	padding-left:9em;
+	padding-right:5em;
+	padding-top:0.3em;
+}
+
+.Title {
+	font-size:2rem;
+	font-family:Leelawadee UI, sans-serif;
+}
+
+.Text {
+	text-align:left;
+	font-size:1.5rem;
+	font-family:Bahnschrift, sans-serif;
+	padding-right:0em;
+	margin-right:0em;
+}
+
+.App_Download {
+	padding-right:1em;
+	padding-left:1.6em;
+	margin-bottom:1em;
+	margin-left:0em;
+}
+
+.Coder_App_Logo {
+	height:15em;
+	width:15em;
+}
+
+.Dnload_Btn {
+	margin-top:5em;
+	margin-bottom:5em;
+	padding-top:1em;
+	padding-bottom:1em;
+}
+
+button {
+	background-color:#0C0;
+	color:#FFF;
+	border:none;
+	padding-left:0.99em;
+	padding-right:0.99em;
+	padding-top:0.2em;
+	padding-bottom:0.2em;
+	font-size:2em;
+	font-family:Bahnschrift, sans-serif;
+	border-radius:0.3em;
+	cursor:pointer;
+	transition:background-color 0.50s, color 0.50s;
+	margin-right:0em;
+	margin-left:0em;
+	margin-bottom:0.4em;
+}
+
+button:hover {
+	background-color:#FFF;
+	color:#0C0;
+}
+
+button:active {
+	opacity:0.8;
+}
+
+.Get_On_AASGPS {
+	display:flex;
+	gap:0.5em;
+	margin-top:0em;
+	margin-left:0em;
+}
+
+.Get_On_GPS {
+	height:2.7em;
+	width:8.8em;
+}	
+
+.Get_On_AAS {
+	height:2.7em;
+	width:8.8em;
+}	
+
+
+
+/*  _________________________  */
+/* |                         | */
+/* |-----> FFS Section <-----| */
+/* |_________________________| */
+
+
+
+.Section_FFS {
+	background-color:#4A4A4A;
+	padding-bottom:2em;
+	padding-right:2em;
+	padding-left:2em;
+	padding-top:2em;
+	margin-top:0em;
+	margin-left:2em;
+	margin-right:2em;
+	margin-bottom:2em;	
+}
+
+.Info_Boxes {
+	display:flex;
+	gap:20em;
+}
+
+.Info_Box_1 {
+	display:flex;
+	gap:1em;
+}
+
+.Info_Box_2 {
+	display:flex;
+	gap:1em;
+}
+
+.Info_Box_3 {
+	display:flex;
+	gap:1em;
+}
+
+.Money_Free_Icon {
+	hieght:3em;
+	width:3em;
+	padding-top:1em;
+}
+
+p.Free-word {
+	color:#0F0;
+	font-size:2.5em;
+	margin-top:0em;
+	margin-bottom:0em;
+	padding-top:0.2em;
+	font-family:Leelawadee UI, sans-serif;
+	font-weight:bold;
+}
+
+
+p.Free-Forever {
+	margin-left:2.5em;
+	margin-bottom:0em;
+	margin-right:2em;
+	margin-top:0em;
+	padding-bottom:0em;
+	padding-left:0.1em;
+	padding-right:1em;
+	padding-top:0em;
+	font-size:1.5em;
+	font-family:Bahnschrift, sans-serif;
+}
+
+
+.Fast_Bolt_Icon {
+	hieght:3em;
+	width:3em;
+	padding-top:1em;
+}
+
+p.Fast-word {
+	color:#0F0;
+	font-size:2.5em;
+	margin-top:0em;
+	margin-bottom:0em;
+	padding-top:0.2em;
+	font-family:Leelawadee UI, sans-serif;
+	font-weight:bold;
+}
+
+
+p.Fast-Setup {
+	margin-left:6.5em;
+	margin-bottom:0em;
+	margin-right:3em;
+	margin-top:0em;
+	padding-bottom:0em;
+	padding-left:2em;
+	padding-right:1em;
+	padding-top:0em;
+	font-size:1.5em;
+	font-family:Bahnschrift, sans-serif;
+}
+
+
+
+.Lock_Icon {
+	hieght:3em;
+	width:3em;
+	padding-top:1em;
+}
+
+p.Safe-word {
+	color:#0F0;
+	font-size:2.5em;
+	margin-top:0em;
+	margin-bottom:0em;
+	padding-top:0.2em;
+	font-family:Leelawadee UI, sans-serif;
+	font-weight:bold;
+}
+
+p.Safe-Lock {
+	margin-left:3em;
+	margin-bottom:0em;
+	margin-right:2em;
+	margin-top:0em;
+	padding-bottom:0em;
+	padding-left:1em;
+	padding-right:0em;
+	padding-top:0em;
+	font-size:1.5em;
+	font-family:Bahnschrift, sans-serif;
+}
+
+
+
+.FFS_Extra {
+	display:flex;
+	gap:4em;
+	margin-left:0em;
+	margin-bottom:0em;
+	margin-right:0em;
+	margin-top:0em;
+	padding-bottom:0em;
+	padding-left:0em;
+	padding-right:0em;
+	padding-top:0em;
+}
+
+
+
+/*  __________________________  */
+/* |                          | */
+/* |-----> 1000 Courses <-----| */
+/* |__________________________| */
+
+
+
+p.More_Info {
+	color:#FFF;
+	font-family:FSAlbert, Verdana, Geneva, sans-serif;
+	font-size:2em;
+	text-align:center;
+}
+
+
+
+/*  ___________________________________  */
+/* |                                   | */
+/* |-----> Programming Languages <-----| */
+/* |___________________________________| */
+
+
+
+.PL {
+	display:flex;
+	gap:5em;
+	margin-bottom:1em;
+	margin-left:1em;
+	margin-right:1em;
+	margin-top:1em;
+	padding-bottom:1em;
+	padding-left:1em;
+	padding-right:1em;
+	padding-top:1em;
+}
+
+.HTML_Img {
+	height:5em;
+	width:5em;
+}
+
+.CSS_Img {
+	height:5.5em;
+	width:4em;
+}
+
+.JS_Img {
+	height:5em;
+	width:9em;
+}
+
+.Python_Img {
+	height:5em;
+	width:5em;
+}
+
+.HTML {
+	margin-bottom:2em;
+	margin-left:2em;
+	margin-right:2em;
+	margin-top:2em;
+	padding-bottom:2em;
+	padding-left:2em;
+	padding-right:2em;
+	padding-top:2em;
+	cursor:pointer;
+	transition:background-color 0.50s, color 0.50s;
+}
+
+.CSS {
+	margin-bottom:2em;
+	margin-left:2em;
+	margin-right:2em;
+	margin-top:2em;
+	padding-bottom:2em;
+	padding-left:2em;
+	padding-right:2em;
+	padding-top:2em;
+	cursor:pointer;
+	transition:background-color 0.50s, color 0.50s;
+}
+
+.JS {
+	margin-bottom:2em;
+	margin-left:2em;
+	margin-right:2em;
+	margin-top:2em;
+	padding-bottom:2em;
+	padding-left:2em;
+	padding-right:2em;
+	padding-top:2em;
+	cursor:pointer;
+	transition:background-color 0.50s, color 0.50s;
+}
+
+.Python {
+	margin-bottom:2em;
+	margin-left:2em;
+	margin-right:2em;
+	margin-top:2em;
+	padding-bottom:2em;
+	padding-left:2em;
+	padding-right:2em;
+	padding-top:2em;
+	cursor:pointer;
+	transition:background-color 0.50s, color 0.50s;
+}
+
+h3 {
+	text-align:center;
+	color:#FFF;
+	font-family:Bahnschrift, Verdana, Geneva, sans-serif;
+	font-size:1em;
+	font-weight:1em;
+	cursor:pointer;
+	transition:background-color 0.50s, color 0.50s;
+	
+}
+
+.HTML:hover {
+	background-color:#0F0;
+}
+
+.CSS:hover {
+	background-color:#0F0;
+}
+
+.JS:hover {
+	background-color:#0F0;
+}
+
+.Python:hover {
+	background-color:#0F0;
+}
+
+h2.More_PL {
+	text-align:center;
+	margin:1em;
+	padding:0em;
+	cursor:pointer;
+	font-family:Leelawadee UI, Verdana, Geneva, sans-serif;
+}
+
+h2.More_PL:hover {
+	color:#0F0;
+}
+
+
+
+/*  ____________________  */
+/* |                    | */
+/* |-----> Footer <-----| */
+/* |____________________| */
+
+
+
+.Followw_On_SM {
+	display:flex;
+	gap:1em;
+}
+
+p.Follow {
+	font-family:Leelawadee UI, Verdana, Geneva, sans-serif;
+	font-size:2em;
+	font-weight:bold;
+	margin-top:0.5em;
+	margin-bottom:0em;
+	padding:0em;
+}
+
+.SM_Reddit {
+	height:2em;
+	width:2em;
+	position:relative;
+	cursor:pointer;
+	margin:1em;
+}
+
+.SM_Reddit svg{
+	height:100%;
+	width:100%;
+}
+
+.Reddit_Fill {
+	position:absolute;
+	top:0em;
+	left:0em;
+	bottom:0em;
+	right:0em;
+	opacity:0;
+	transition:opacity 0.5s ease;
+}
+
+.Reddit_Fill:hover {
+	opacity:1;
+}
+
+.SM_Twitter {
+	height:2em;
+	width:2em;
+	position:relative;
+	cursor:pointer;
+	margin:1em;
+}
+
+.SM_Twitter svg{
+	height:100%;
+	width:100%;
+}
+
+.Twitter_Fill {
+	position:absolute;
+	top:0em;
+	left:0em;
+	bottom:0em;
+	right:0em;
+	opacity:0;
+	transition:opacity 0.5s ease;
+}
+
+.Twitter_Fill:hover {
+	opacity:1;
+}
+
+.SM_Instagram {
+	height:2em;
+	width:2em;
+	position:relative;
+	cursor:pointer;
+	margin:1em;
+}
+
+.SM_Instagram svg{
+	height:100%;
+	width:100%;
+}
+
+.Instagram_Fill {
+	position:absolute;
+	top:0em;
+	left:0em;
+	bottom:0em;
+	right:0em;
+	opacity:0;
+	transition:opacity 0.5s ease;
+}
+
+.Instagram_Fill:hover {
+	opacity:1;
+}
+
+.Help {
+	font-family:FSAlbert, Verdana, Geneva, sans-serif;
+	font-size:1em;
+}
+
+span {
+	text-decoration:underline;
+	font-weight:bold;
+}
